@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="418723492746560"
+    token="-7838901875783310009"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="289" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="383" />
+    <task
+        name="verifier"
+        duration="130" />
+
+    <artifact
+        location="C:\Users\spb\StudioProjects\Mountains\AndroidMountains\build\outputs\apk\AndroidMountains-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="418723492746560"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\spb\StudioProjects\Mountains\AndroidMountains\build\outputs\apk\AndroidMountains-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

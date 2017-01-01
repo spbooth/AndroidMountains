@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:persistent="false">
+
+    <PreferenceScreen android:key="view" android:title="@string/view_prefs" android:persistent="false" android:enabled="true">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="map"
+            android:summary="@string/map_view_summary"
+            android:title="@string/map_view" android:enabled="true"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="reflect"
+            android:summary="@string/water_reflect_sum"
+            android:title="@string/water_reflec" />
+        <EditTextPreference android:title="@string/repeat" android:summary="@string/repeat_sum" android:key="repeat" android:inputType="number" android:defaultValue="20"/>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="fractal"
+        android:title="@string/fractal_prefs" android:enabled="true" android:persistent="false">
+        <EditTextPreference android:defaultValue="0.65" android:digits="0123456789." android:inputType="numberDecimal" android:key="fdim" android:title="@string/fdim" android:summary="@string/fdim_sum" /><EditTextPreference
+            android:defaultValue="9"
+            android:inputType="number"
+            android:key="levels"
+            android:summary="@string/level_sum"
+            android:title="@string/levels" />
+        <EditTextPreference
+            android:defaultValue="1"
+            android:inputType="number"
+            android:key="stop"
+            android:summary="@string/stop_levels_sum"
+            android:title="@string/stop_levels" />
+        
+        <EditTextPreference android:title="@string/front" android:summary="@string/front_sum" android:key="front" android:inputType="number" android:defaultValue="2"/>
+        <EditTextPreference android:title="@string/back" android:summary="@string/back_sum" android:key="back" android:inputType="number" android:defaultValue="0"/>
+        <EditTextPreference android:title="@string/force" android:summary="@string/force_sum" android:key="force" android:inputType="numberDecimal|numberSigned" />
+        <CheckBoxPreference android:summary="@string/cross_sum" android:defaultValue="true" android:title="@string/cross" android:key="cross"/>
+        <CheckBoxPreference android:defaultValue="false" android:title="@string/rg1" android:key="rg1"/>
+        <CheckBoxPreference android:defaultValue="false" android:title="@string/rg2" android:key="rg2"/>
+        <CheckBoxPreference android:defaultValue="true" android:title="@string/rg3" android:key="rg3"/>
+        
+    </PreferenceScreen>
+
+</PreferenceScreen>

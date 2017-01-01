@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/button_start_stop" android:title="@string/menu_pause"></item>
+	<item android:id="@+id/button_turbo" android:title="@string/menu_turbo"></item>
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100" >
+    </item>
+</menu>
